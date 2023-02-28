@@ -1,0 +1,44 @@
+// 导入全局变量
+@import '~./variable.scss';
+body,html {
+  height: 100%;
+  width: 100%;
+}
+.flex {
+  display: flex;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-jcenter {
+  display: flex;
+  justify-content: center;
+}
+.flex-acenter {
+  display: flex;
+  align-items: center;
+}
+.flex-column {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+}
+.flex-jend {
+  display: flex;
+  justify-content: flex-end;
+}
+.flex_1 {
+  flex: 1;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
