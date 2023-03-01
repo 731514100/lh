@@ -9,7 +9,7 @@ const resolve = dir => {
 module.exports = {
 
   outputDir: 'dist',
-  publicPath: process.env.VUE_APP_ENV === 'development' ? '/' : '/static',
+  publicPath: process.env.VUE_APP_ENV === 'development' ? '/' : '/',
   assetsDir: 'public',
   lintOnSave: process.env.VUE_APP_ENV === 'development',
 
