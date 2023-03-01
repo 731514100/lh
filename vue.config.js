@@ -2,7 +2,7 @@
 const path = require('path');
 const opn = require('opn');
 const port = 10086;
-setTimeout(() => opn(`http://localhost:${port}`), 0);
+process.env.VUE_APP_ENV === 'development' ? setTimeout(() => opn(`http://localhost:${port}`), 0) : void 0;
 const resolve = dir => {
   return path.join(__dirname, dir);
 };
